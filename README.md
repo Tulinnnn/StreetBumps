@@ -24,3 +24,7 @@ ve veritabanına kaydedilir.
 ## Sürücü Kullanımı
 Araç seyir halinde iken karşılaşılan bir durum yaya kulllanımı ile aynı olarak paylaşılabilir. Ayrıca aracın aldığı sarsıntıya bağlı olarak hareket sensörlerinin tespit ettiği 
 değişime göre tahmn edilen durum kullanıcıya sorulur; doğrulaması halinde haritada işaretlenir ve veritabanına eklenir.
+# Önemli Notlar
+Projede Google Map API kullanıldığı için özel API_KEY edinilmelidir ve "google_maps_api_key.xml" dosyasında "API_KEY" alanına eklenilmelidir.
+
+  
