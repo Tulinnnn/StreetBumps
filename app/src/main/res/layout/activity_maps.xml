@@ -12,92 +12,92 @@
     <LinearLayout
         android:id="@+id/map_container2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="320dp"
         android:layout_weight="0.5"
         android:orientation="vertical">
 
-        <LinearLayout
-            android:id="@+id/linear1"
+
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="455dp"
-            android:layout_weight="0.5"
+            android:layout_height="227dp">
 
-            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:onClick="stoneClick"
+                map:layout_constraintEnd_toStartOf="@+id/imageButton13"
+                map:layout_constraintHorizontal_bias="0.25"
+                map:layout_constraintStart_toStartOf="parent"
+                map:layout_constraintTop_toTopOf="parent"
+                map:srcCompat="@drawable/t1" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="227dp">
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="44dp"
+                android:onClick="crackClick"
+                map:layout_constraintEnd_toStartOf="@+id/imageButton14"
+                map:layout_constraintTop_toTopOf="parent"
+                map:srcCompat="@drawable/crack" />
 
-                <ImageButton
-                    android:id="@+id/imageButton12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="32dp"
-                    android:onClick="stoneClick"
-                    map:layout_constraintEnd_toStartOf="@+id/imageButton13"
-                    map:layout_constraintHorizontal_bias="0.25"
-                    map:layout_constraintStart_toStartOf="parent"
-                    map:layout_constraintTop_toTopOf="parent"
-                    map:srcCompat="@drawable/t1" />
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="24dp"
+                android:onClick="workClick"
+                map:layout_constraintEnd_toEndOf="parent"
+                map:layout_constraintTop_toTopOf="parent"
+                map:srcCompat="@drawable/dob" />
 
-                <ImageButton
-                    android:id="@+id/imageButton13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="32dp"
-                    android:layout_marginEnd="44dp"
-                    android:onClick="crackClick"
-                    map:layout_constraintEnd_toStartOf="@+id/imageButton14"
-                    map:layout_constraintTop_toTopOf="parent"
-                    map:srcCompat="@drawable/crack" />
+            <ImageButton
+                android:id="@+id/imageButton16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="36dp"
+                android:onClick="holeClick"
+                map:layout_constraintStart_toStartOf="parent"
+                map:layout_constraintTop_toBottomOf="@+id/imageButton12"
+                map:srcCompat="@drawable/hole" />
 
-                <ImageButton
-                    android:id="@+id/imageButton14"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="32dp"
-                    android:layout_marginEnd="24dp"
-                    android:onClick="workClick"
-                    map:layout_constraintEnd_toEndOf="parent"
-                    map:layout_constraintTop_toTopOf="parent"
-                    map:srcCompat="@drawable/dob" />
+            <ImageButton
+                android:id="@+id/imageButton17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="36dp"
+                android:onClick="animalClick"
+                map:layout_constraintStart_toEndOf="@+id/imageButton16"
+                map:layout_constraintTop_toBottomOf="@+id/imageButton13"
+                map:srcCompat="@drawable/animal_button" />
 
-                <ImageButton
-                    android:id="@+id/imageButton16"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="36dp"
-                    android:onClick="holeClick"
-                    map:layout_constraintStart_toStartOf="parent"
-                    map:layout_constraintTop_toBottomOf="@+id/imageButton12"
-                    map:srcCompat="@drawable/hole" />
+            <ImageButton
+                android:id="@+id/imageButton18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:onClick="accidentClick"
+                map:layout_constraintEnd_toEndOf="parent"
+                map:layout_constraintHorizontal_bias="0.629"
+                map:layout_constraintStart_toEndOf="@+id/imageButton17"
+                map:layout_constraintTop_toBottomOf="@+id/imageButton14"
+                map:srcCompat="@drawable/garbage" />
 
-                <ImageButton
-                    android:id="@+id/imageButton17"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="44dp"
-                    android:layout_marginTop="36dp"
-                    android:onClick="animalClick"
-                    map:layout_constraintStart_toEndOf="@+id/imageButton16"
-                    map:layout_constraintTop_toBottomOf="@+id/imageButton13"
-                    map:srcCompat="@drawable/animal_button" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="455dp"
+        android:layout_weight="0.5"
 
-                <ImageButton
-                    android:id="@+id/imageButton18"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="36dp"
-                    android:onClick="accidentClick"
-                    map:layout_constraintEnd_toEndOf="parent"
-                    map:layout_constraintHorizontal_bias="0.629"
-                    map:layout_constraintStart_toEndOf="@+id/imageButton17"
-                    map:layout_constraintTop_toBottomOf="@+id/imageButton14"
-                    map:srcCompat="@drawable/garbage" />
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
-        </LinearLayout>
+        android:orientation="horizontal">
 
         <fragment
             android:id="@+id/map"
