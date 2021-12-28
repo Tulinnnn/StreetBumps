@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "722498312389",
+    "project_id": "streetbump-a97e1",
+    "storage_bucket": "streetbump-a97e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722498312389:android:d3bd1eec50e99ef03c38ac",
+        "android_client_info": {
+          "package_name": "com.tulinboyar.streetbumps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722498312389-gethja0te0roehks4ude0a8oe42m27j7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHtrvzvVIvDcxS7JvhAGJ9U6zCyBTk3no"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722498312389-gethja0te0roehks4ude0a8oe42m27j7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
