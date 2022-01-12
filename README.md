@@ -4,7 +4,7 @@ bildirilen durumların harita üzerinde işaretlenerek paylaşıldığı; tüm b
 # Teknik Bilgiler
 ## İşletim Sistemi
 Uygulama akıllı telefonlarda Android işletim sisteminde çalışmaktadır.
-##Yazılım Platformu
+## Yazılım Platformu
 Adroid Studio 2020.3.1 kullanılarak  geliştirilmiştir.
 ## Programlama Dili
 Kotlin dili ile geliştirilmiştir.
